@@ -305,6 +305,51 @@ h1 {
   color: #000;
 }
 
+/* card fasilitas */
+
+.button-fitur{
+  width: 238px;
+  height: 63px;
+  background-color: var(--warna-hijau);
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+}
+
+#fitur h2{
+  font-size: 48px;
+  font-weight: 500;
+
+}
+
+.card-fitur h5{
+  color: #fff;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.card-fitur span{
+  color: #fff;
+  font-size: 14px;
+}
+
+.card-fitur h6{
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.card-fitur button{
+  background-color: var(--warna-hijau);
+  color: #fff;
+  border: none;
+  width: 150px;
+  height: 45px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
 /* hover */
 .card-property:hover {
   width: 100%;
@@ -331,3 +376,4 @@ h1 {
   transition: all 0.2s ease-in;
 } 
 /* end layanan style
+
