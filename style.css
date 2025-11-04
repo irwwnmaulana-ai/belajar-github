@@ -351,7 +351,32 @@ h1 {
 }
 
 .card-fitur .overlay {
+  background-color: rgba(0, 0, 0, 0);
+  opacity: 0;
+  transition: all ease-in-out .3s;
+}
+
+.card-fitur .overlay:hover {
   background-color: rgba(0, 0, 0, 0.6);
+  opacity: 1;
+}
+
+.button-arrow-left{
+  border: none;
+  border-radius: 50%;
+  width: 61px;
+  height: 61px;
+  background-color: var(--warna-hijau);
+  padding: 0;
+}
+
+.button-arrow-right{
+  border: none;
+  border-radius: 50%;
+  width: 61px;
+  height: 61px;
+  background-color: var(--warna-hijau);
+  padding: 0;
 }
 
 /* hover */
